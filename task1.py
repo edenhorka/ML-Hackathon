@@ -97,10 +97,6 @@ def find_optimal_d():
     plt.show()
 
 
-# find_optimal_d()
-
-
-
 def save_lr(lr):
     with open('LR_file.pickle', 'wb') as open_file:
         pickle.dump(lr, open_file, pickle.HIGHEST_PROTOCOL)
